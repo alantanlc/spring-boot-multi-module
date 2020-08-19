@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>repository</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>com.example.demo</groupId>
+      <artifactId>domain</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
 </project>

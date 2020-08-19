@@ -6,4 +6,21 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>application</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>com.example.demo</groupId> 
+      <artifactId>controller</artifactId>
+      <version>${project.version}</version>
+    </dependency> 
+    <dependency>
+      <groupId>com.example.demo</groupId> 
+      <artifactId>service</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.example.demo</groupId>
+      <artifactId>repository</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
 </project>

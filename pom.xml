@@ -9,6 +9,10 @@
   <artifactId>spring-boot-multi-module</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+    <java.version>11</java.version>
+  </properties>
   <modules>
   	<module>application</module>
   </modules>

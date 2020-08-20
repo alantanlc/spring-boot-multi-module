@@ -21,3 +21,11 @@ More Details:
 - Aggregate, entities, value-objects live along with Service and Repository Interfaces reside in the Domain submodule
 - Service implementations reside in the Service submodule
 - Repository implementations reside in the Repository submodule
+
+### Logging
+
+[Simple Logging Facade For Java (SLF4J)](http://slf4j.org) is used for logging in this project. SLF4J serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at _deployment_ time.
+
+Before you start using SLF4J, we highly recommend that you read the two-page [SLF4J user manual](http://www.slf4j.org/manual.html).
+
+To perform logging, assign a class member variable `logger` to the Logger object returned by the LoggerFactory. You can then use `logger` inside any class or object methods. 

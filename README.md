@@ -24,7 +24,7 @@ More Details:
 
 ### Logging
 
-[Simple Logging Facade For Java (SLF4J)](http://slf4j.org) is used for logging in this project. SLF4J serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at _deployment_ time.
+[Simple Logging Facade For Java (SLF4J)](http://slf4j.org) is used for logging in this project. SLF4J serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at _deployment_ time. Note that SLF4J-enabling your library/application implies the addition of only a single mandatory dependency, namely _slf4j-api-2.0.0-alpha2-SNAPSHOT.jar_.
 
 Before you start using SLF4J, we highly recommend that you read the two-page [SLF4J user manual](http://www.slf4j.org/manual.html).
 
